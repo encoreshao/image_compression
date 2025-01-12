@@ -27,8 +27,8 @@
 1. 克隆项目到本地：
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone git@github.com:encoreshao/image_compression.git
+   cd image_compression
    ```
 
 2. 安装依赖：
@@ -49,18 +49,20 @@
 ## 项目结构
 
 ```bash
-➜  image_compression tree -I 'node_modules'
+➜ git:(main) tree -I 'node_modules'
 .
 ├── README.md
 ├── package-lock.json
 ├── package.json
+├── prompt-en.md
+├── prompt-zh.md
 ├── public
 │   ├── index.html
 │   ├── script.js
 │   └── styles.css
 └── server.js
 
-2 directories, 7 files
+2 directories, 9 files
 ```
 
 ## 使用说明
