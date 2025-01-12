@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>图片压缩</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>图片压缩工具</h1>
+    <div>
+      <input type="file" id="upload" accept="image/png, image/jpeg">
+    </div>
+    <div>
+      <label for="compression">压缩比例:</label>
+      <input type="range" id="compression" min="10" max="100" value="50">
+    </div>
+    <div>
+      <label for="rotation">旋转角度:</label>
+      <select id="rotation">
+        <option value="0">0°</option>
+        <option value="90">90°</option>
+        <option value="180">180°</option>
+        <option value="270">270°</option>
+      </select>
+    </div>
+    <button id="compress">压缩图片</button>
+    <div id="preview">
+      <h2>原始图片</h2>
+      <img id="originalImage" src="" alt="Original Image">
+      <p id="originalSize"></p>
+      <h2>压缩图片</h2>
+      <img id="compressedImage" src="" alt="Compressed Image">
+      <p id="compressedSize"></p>
+      <a id="download" href="#" download="compressed-image.jpg">下载压缩图片</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
