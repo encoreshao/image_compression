@@ -1,4 +1,4 @@
-Please help me develop a "picture compression" website. The functions of this website are:
+Please help me develop a "image compression" website. The functions of this website are:
 
 1. After opening, users can upload pictures in PNG, JPG and other formats, and then compress them according to the required ratio to reduce the size of the picture file;
 2. Both the uploaded pictures and the compressed pictures should be previewed on the page to help users judge whether the uploaded pictures are ready and whether the compressed effect meets expectations;
